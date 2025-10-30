@@ -33,6 +33,18 @@ int main(void) {
     }
     cout << endl;
     
+    //Every even element
+    cout << "Even values: ";
+    for (int i = 0; i < SIZE; i++) {
+        
+        if (array[i] % 2 == 0) {
+            cout << array[i] << " ";
+        }
+        
+    }
+    cout << endl;
+    
+    
    
 
     return 0;
