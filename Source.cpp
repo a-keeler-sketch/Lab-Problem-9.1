@@ -26,7 +26,14 @@ int main(void) {
         }
     cout << endl;
 
+    //Every element at an even index
+    cout << "Even indices: ";
+    for (int i = 0; i < SIZE; i++) {
+        if ((i+1) % 2 == 0) cout << array[i] << " ";
+    }
+    cout << endl;
     
+   
 
     return 0;
 
