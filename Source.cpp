@@ -14,7 +14,19 @@ using namespace std;
  
 
 int main(void) {
+    srand(time(0)); // randomizing the numbers
+    const int SIZE = 10;// setting the size of the array to 10 numbers
+    int array[SIZE]; // initializing the array
 
+    //Displaying the random integers
+    cout << "The random integers: ";
+    for (int i = 0; i < SIZE; i++) {
+        array[i] = rand() % 9000 + 1000;
+        cout << array[i] << " ";
+        }
+    
+    
+   
 
    
 
