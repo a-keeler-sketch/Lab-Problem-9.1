@@ -21,10 +21,17 @@ int main(void) {
     //Displaying the random integers
     cout << "The random integers: ";
     for (int i = 0; i < SIZE; i++) {
-        array[i] = rand() % 9000 + 1000;
+        array[i] = rand() % 9000 + 1000; //9000 numbers between 1000 and 9999
         cout << array[i] << " ";
         }
-    
+    cout << endl;
+
+    //Every element at an even index
+    cout << "Even indices: ";
+    for (int i = 0; i < SIZE; i++) {
+        if ((i+1) % 2 == 0) cout << array[i] << " ";
+    }
+    cout << endl;
     
    
 
