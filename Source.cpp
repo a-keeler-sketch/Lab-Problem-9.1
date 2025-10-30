@@ -26,36 +26,7 @@ int main(void) {
         }
     cout << endl;
 
-    //Every element at an even index
-    cout << "Even indices: ";
-    for (int i = 0; i < SIZE; i++) {
-        if ((i+1) % 2 == 0) cout << array[i] << " ";
-    }
-    cout << endl;
     
-    //Every even element
-    cout << "Even values: ";
-    for (int i = 0; i < SIZE; i++) {
-        
-        if (array[i] % 2 == 0) {
-            cout << array[i] << " ";
-        }
-        
-    }
-    cout << endl;
-    
-    // All elements in reverse order
-    cout << "Reversed order: ";
-    for (int i = 9; i >= 0; i--) {
-        
-        cout << array[i] << " ";
-    }
-    cout << endl;
-
-    // Only the first and last element
-    cout << "First and last: " << array[0] << " " << array[9];
-
-   
 
     return 0;
 
