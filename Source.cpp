@@ -44,7 +44,13 @@ int main(void) {
     }
     cout << endl;
     
-   
+    // All elements in reverse order
+    cout << "Reversed order: ";
+    for (int i = 9; i >= 0; i--) {
+        
+        cout << array[i] << " ";
+    }
+    cout << endl;
 
    
 
