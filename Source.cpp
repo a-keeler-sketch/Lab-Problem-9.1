@@ -52,6 +52,9 @@ int main(void) {
     }
     cout << endl;
 
+    // Only the first and last element
+    cout << "First and last: " << array[0] << " " << array[9];
+
    
 
     return 0;
